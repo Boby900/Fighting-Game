@@ -1,0 +1,88 @@
+header{
+    text-align: center;
+}
+ h1:nth-child(1){
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: lawngreen;
+    height: 7vh;
+    padding-top: 2%;
+     
+}
+body{
+    background-color: cornflowerblue;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#image1{
+    height: 30vh;
+    width: 30vw;
+    margin: 2%;
+}
+#image2{
+    height: 30vh;
+    width: 30vw;
+    margin: 2%;
+    background-color: white;
+}    
+.break{
+    text-align: right;
+    font-size: 2rem;
+    margin-left: 20%;
+    font-weight: bolder;
+}
+#player1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero > div{
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.hero > div > button{
+    height: 3rem;
+    color: darkblue;
+    width: 3.5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.hero > div > button:hover{
+    background-color: brown;
+}
+.damage{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: red;
+}
+#life{
+    color: rgb(3, 70, 3);
+}
+footer{
+    text-align: center;
+}
+#footer-div{
+ 
+}
+#footer-div > button{
+   height: 2rem;
+   width: 8rem;
+   font-size: 1.5rem;
+   box-shadow: 1px 1px 2px 4px ;
+}
+#footer-div >button:hover{
+    height: 2.5rem;
+    width: 9rem;
+}
+.result{
+    color: black;
+}

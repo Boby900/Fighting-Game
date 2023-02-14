@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Fighting Game</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <h1>Fighting Game</h1>
+  </header>
+  <main>
+    <div id="container">
+      <div id="player-1">
+        <span class="break"> Player1</span> <br><img id="image1" src="images/goku.jpg" alt="oops!">
+        <div class="hero">
+          <div>Attack<button id="q">Q</button></div>
+          <div>Heal <button id="h">H</button></div>
+        </div>
+        <div class="damage">
+        <p><h1 id="life">Life <span class="result">100</span></h1></p>
+        <p><h1>Damage <span class="result">100</span></h1></p>
+      </div>
+      </div>
+      <div id="player-2">
+        <span class="break"> Player2</span> <br><img id="image2" src="https://i.imgur.com/Z0QCi47.gif" alt="oops!">
+        <div class="hero">
+          <div>Attack <button id="p">P</button></div>
+          <div>Heal <button id="r">R</button></div>
+        </div>
+      <div class="damage">
+      <p><h1 id="life">Life <span class="result">100</span></h1></p>
+      <p><h1>Damage <span class="result">100</span></h1></p>
+    </div>
+      </div>
+    </div>
+  </main>
+  <audio id="sound1" src="sounds/fastheal.mp3" type="mpeg"></audio>
+  <audio id="sound2" src="sounds/fastpunch.mp3" type="mpeg"></audio>
+  <audio id="sound3" src="sounds/quickheal.mp3" type="mpeg"></audio>
+  <audio id="sound4" src="sounds/quickhit.mp3" type="mpeg"></audio>
+  <audio id="sound5" src="sounds/victory.mp3" type="mpeg"></audio>
+  <footer><div id="footer-div"><button>Reset</button></div></footer>
+  <script src="bob.js"></script>
+</body>
+</html>
